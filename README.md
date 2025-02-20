@@ -9,7 +9,7 @@ Omnipose to python:
 
     The class can be initialized by running the following function:
       omnipose_to_python_timelapse(omni_cell_path, experiment, fluorescent_channels, min_trajectory_length, frame_interval, every_nth, save_path)
-    Other functions incldued in the class:
+    Other functions included in the class:
       get_cell_out_of_boundaries(limits)
       get_mothers_without_daughters()
       get_medial_axes(bad_cells, verb=False)
