@@ -7,22 +7,20 @@ Omnipose to python:
     <br> SuperSegger: https://pubmed.ncbi.nlm.nih.gov/27569113/
     <br> see also: https://www.biorxiv.org/content/10.1101/2024.11.25.625259v1.full
 
-    The class can be initialized by running the following function:
-      omnipose_to_python_timelapse(omni_cell_path, experiment, fluorescent_channels, min_trajectory_length, frame_interval, every_nth, save_path)
-    Other functions included in the class:
-      get_cell_out_of_boundaries(limits)
-      get_mothers_without_daughters()
-      get_medial_axes(bad_cells, verb=False)
-      locate_cell_id(cell_position, frame, radius)
-      get_lineage_mother(single_cell_id)
-      get_oned_fluorescence(single_cell_id)
+The class can be initialized by running the following function:
+  omnipose_to_python_timelapse(omni_cell_path, experiment, fluorescent_channels, min_trajectory_length, frame_interval, every_nth, save_path)
+Other functions included in the class:
+  get_cell_out_of_boundaries(limits)
+  get_mothers_without_daughters()
+  get_medial_axes(bad_cells, verb=False)
+  locate_cell_id(cell_position, frame, radius)
+  get_lineage_mother(single_cell_id)
+  get_oned_fluorescence(single_cell_id)
 
-  Cite:
-    https://www.biorxiv.org/content/10.1101/2024.10.08.617237v2.full
+ Cite:
     
-    DNA/polysome phase separation and cell width confinement couple nucleoid segregation 
-    to cell growth in Escherichia coli
+    Nonequilibrium polysome dynamics promote chromosome segregation and its coupling to cell growth in Escherichia coli
     
     Alexandros Papagiannakis, Qiwei Yu, Sander K. Govers, Wei-Hsiang Lin,  Ned S. Wingreen, Christine Jacobs-Wagner
     
-    bioRxiv, https://doi.org/10.1101/2024.10.08.617237, October 22, 2024
+    eLife2025;14:RP104276 DOI: https://doi.org/10.7554/eLife.104276.3
